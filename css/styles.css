@@ -1,9 +1,17 @@
 :root {
 --primary-background-color: #e5e6ff;
 --button-bckg-color: #054f24;
+--item-bckg-color: #a5b4ff;
+--btn-color: #ffffff;
 }
 
 body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
     background-color: var(--primary-background-color);
 }
 
@@ -30,6 +38,15 @@ img {
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
+
+}
+
+.title {
+    margin-bottom: 8px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
 }
 
 .list {
@@ -57,14 +74,17 @@ img {
     margin-right: auto;
     margin-left: auto;
 
-    width: 150px;
-    height: 45px;
+    width: 195px;
+    height: 70px;
+
+    font-size: 26px;
+    line-height: 1.2;
 
 
     background-color: var(--button-bckg-color);
-    color: #ffffff;
+    color: var(--btn-color);
     border-radius: 15px;
-    border: 3px solid #ffffff;
+    border: 3px solid var(--btn-color);;
     
 }
 
@@ -93,11 +113,41 @@ img {
 
     padding: 5px 15px;
 
-    max-width: 150px;
-    background-color: #a5b4ff;
+    max-width: 200px;
+    background-color: var(--item-bckg-color);
 
     border-radius: 15px;
 }
 .item:not(:last-child) {
-    margin-right: 15px;
+    margin-right: 35px;
+}
+
+.secondary-text {
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.flex-list-our-mission {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+
+    margin-top: 30px;
+
+}
+
+
+.item-our-mission:not(:last-child) {
+    margin-right: 20px;
+}
+
+.img-our-mission {
+    border-radius: 50%;
+}
+
+.section-our-products {
+    padding-bottom: 50px;
 }
