@@ -83,7 +83,7 @@ img {
 
     background-color: var(--button-bckg-color);
     color: var(--btn-color);
-    border-radius: 15px;
+    border-radius: 25px;
     border: 3px solid var(--btn-color);;
     
 }
@@ -109,17 +109,19 @@ img {
 }
 .item {
     display: flex;
-    justify-content: center;
+    align-items: center;
 
-    padding: 5px 15px;
+    padding: 5px 5px;
 
-    max-width: 200px;
+    width: 230px;
+    height: 230px;
+
     background-color: var(--item-bckg-color);
-
-    border-radius: 15px;
+    border-radius: 50%;
+        
 }
 .item:not(:last-child) {
-    margin-right: 35px;
+    margin-right: 5px;
 }
 
 .secondary-text {
@@ -141,10 +143,13 @@ img {
 
 
 .item-our-mission:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .img-our-mission {
+    width: 360px;
+    height: 360px;
+
     border-radius: 50%;
 }
 
