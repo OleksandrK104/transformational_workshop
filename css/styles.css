@@ -35,8 +35,6 @@ h3,
 p {
     margin-top: 0;
     margin-bottom: 0;
-
-    /* text-align: center; */
 }
 
 img {
@@ -99,8 +97,9 @@ img {
     border-radius: 25px;
     border: 3px solid var(--btn-color);
     
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    color 350ms cubic-bezier(0.4, 0, 0.2, 1), border 450ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1), 
+    color 350ms cubic-bezier(0.4, 0, 0.2, 1), border 350ms cubic-bezier(0.4, 0, 0.2, 1), 
+    box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn.buy {
@@ -114,11 +113,19 @@ img {
     background-color: var(--btn-color);
     color: var(--button-bckg-color);
     border: 3px solid var(--button-bckg-color);
+    box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .flex-container-hero {
     display: flex;
 }
+
 
 .box-pic {
     text-align: center;
@@ -148,17 +155,30 @@ img {
 
     background-color: var(--item-bckg-color);
     border-radius: 50%;
+    box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12);
         
 }
 .item:not(:last-child) {
     margin-right: 5px;
 }
 
-.flex-what-is-waiting-for-you {
-    display: flex;
+.title-all-changes, .third-text {
+    margin-top: 20px;
 }
 
-.box-what-is-waiting-for-you {
+.flex-what-is-waiting-for-you {
+    display: flex;
+
+    margin-top: 25px;
+}
+
+.box-what-is-waiting-for-you, .item-our-mission {
     width: calc(100%/3);
 
 }
@@ -168,6 +188,7 @@ img {
 }
 
 .title-box-what-is-waiting-for-you {
+    margin-bottom: 15px;
     height: 55px;
 
     background-color: #ffffff;
@@ -184,6 +205,7 @@ img {
     text-align: center;
 }
 
+
 .flex-list-our-mission {
     display: flex;
     justify-content: center;
@@ -194,12 +216,15 @@ img {
 
 }
 
-
-.item-our-mission:not(:last-child) {
-    margin-right: 30px;
+.title-our-products {
+    margin-bottom: 25px;
 }
 
+
 .img-our-mission {
+    margin-bottom: 15px;
+
+    display: inline-block;
     width: 360px;
     height: 360px;
 
