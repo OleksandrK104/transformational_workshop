@@ -74,7 +74,7 @@ img {
 }
 
 .section {
-    padding-top: 70px;
+    padding-top: 115px;
 }
 
 .btn {
@@ -122,8 +122,16 @@ img {
             0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
+.section-hero {
+    padding-top: 15px;
+}
+
 .flex-container-hero {
     display: flex;
+}
+
+.hero-title {
+    margin-top: 15px;
 }
 
 
@@ -138,7 +146,7 @@ img {
 .flex-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     
     text-align: center;
 
@@ -164,12 +172,9 @@ img {
             0 100px 80px rgba(0, 0, 0, 0.12);
         
 }
-.item:not(:last-child) {
-    margin-right: 5px;
-}
 
 .title-all-changes, .third-text {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .flex-what-is-waiting-for-you {
@@ -184,18 +189,18 @@ img {
 }
 
 .box-what-is-waiting-for-you:not(:last-child) {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .title-box-what-is-waiting-for-you {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     height: 55px;
 
     background-color: #ffffff;
 }
 
 .secondary-text {
-    margin-top: 15px;
+    margin-top: 25px;
 
     font-family: 'Alegreya', serif;
     font-size: 32px;
@@ -232,5 +237,5 @@ img {
 }
 
 .section-our-products {
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
