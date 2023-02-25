@@ -74,7 +74,7 @@ img {
 }
 
 .section {
-    padding-top: 115px;
+    padding-top: 100px;
 }
 
 .btn {
@@ -110,7 +110,7 @@ img {
     }
 
     50% {
-        transform: scale(0.95);
+        transform: scale(0.9);
     }
 
     100% {
