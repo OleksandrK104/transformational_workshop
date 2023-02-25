@@ -100,6 +100,22 @@ img {
     transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1), 
     color 350ms cubic-bezier(0.4, 0, 0.2, 1), border 350ms cubic-bezier(0.4, 0, 0.2, 1), 
     box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    animation: animate105 3500ms infinite 500ms;
+}
+
+@keyframes animate105 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .btn.buy {
@@ -120,6 +136,7 @@ img {
             0 22.3px 17.9px rgba(0, 0, 0, 0.072),
             0 41.8px 33.4px rgba(0, 0, 0, 0.086),
             0 100px 80px rgba(0, 0, 0, 0.12);
+            animation-play-state: paused;
 }
 
 .section-hero {
