@@ -1,9 +1,9 @@
 :root {
---primary-background-color: #D96846;
---primary-text-color: #2F3020;
---button-bckg-color: #596235;
---item-bckg-color: #CDCBD6;
---btn-color: #CDCBD6 ;
+--primary-background-color: #D1E8E2;
+--primary-text-color: #2C3531;
+--button-bckg-color: #116466;
+--item-bckg-color: #D9B08C;
+--btn-color: #D9B08C ;
 }
 
 body {
@@ -234,7 +234,7 @@ img {
     margin-top: 25px;
 
     font-family: 'Alegreya', serif;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 1.2;
     letter-spacing: 0.04em;
 
@@ -261,8 +261,8 @@ img {
     margin-bottom: 15px;
 
     display: inline-block;
-    width: 360px;
-    height: 360px;
+    width: 320px;
+    height: 320px;
 
     border-radius: 50%;
 }
