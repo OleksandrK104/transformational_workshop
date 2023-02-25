@@ -1,8 +1,8 @@
 :root {
---primary-background-color: #e5e6ff;
---button-bckg-color: #054f24;
+--primary-background-color: #90FB91;
+--button-bckg-color: #F3F20F;
 --item-bckg-color: #a5b4ff;
---btn-color: #ffffff;
+--btn-color: #a5b4ff ;
 }
 
 body {
@@ -214,7 +214,7 @@ img {
 
     height: 65px;
 
-    background-color: #ffffff;
+    background-color: #a5b4ff;
     border-radius: 15px;
 }
 
