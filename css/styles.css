@@ -321,7 +321,9 @@ img {
 }
 
 .our-mission-contact:hover,
-.our-mission-contact:focus {
+.our-mission-contact:focus,
+.our-products-telegram:hover,
+.our-products-telegram:focus {
     background-color: var(--btn-color);
     color: var(--button-bckg-color);
     border: 2px solid var(--button-bckg-color);
@@ -335,7 +337,27 @@ img {
 }
 
 .section-our-products {
-    padding-bottom: 15px;
+    padding-bottom: 50px;
+}
+
+.our-products-telegram {
+    display: block;
+        text-align: center;
+        margin-top: 5px;
+
+        width: 300px;
+        height: 35px;
+    
+        font-size: 24px;
+    
+        background-color: var(--button-bckg-color);
+        color: var(--btn-color);
+        border-radius: 15px;
+        border: 2px solid var(--btn-color);
+    
+        transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1),
+            color 350ms cubic-bezier(0.4, 0, 0.2, 1), border 350ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
